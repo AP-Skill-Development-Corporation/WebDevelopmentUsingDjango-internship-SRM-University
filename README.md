@@ -3,6 +3,6 @@
 Welcome to Web Development Using Django internship this repository consists of all the files, resources, and recorded session links which are discussed during the entire training.
 
 
-[Git](https://git-scm.com/downloads)
-[Python](https://www.python.org/downloads/)
-[Registration link](http://engineering.apssdc.in/register/)
+- [Git](https://git-scm.com/downloads)
+- [Python](https://www.python.org/downloads/)
+- [Registration link](http://engineering.apssdc.in/register/)
