@@ -13,3 +13,11 @@ Welcome to Web Development Using Django internship this repository consists of a
 [Day 1 video link](https://transcripts.gotomeeting.com/#/s/1ea6c10d4a626f7b23c82f7e32d3bc6e3c5c04141c0bb3ec1c71f23717ffcb23)
   - Introduction 
   - installations
+
+[Day 2 Video link](https://transcripts.gotomeeting.com/#/s/e17fa10374b6d783c2565ca38e58717a2a3057f9c75bfc95e70c1bdf2122bfe9)
+- Initializing repositories
+- Accessing Existing Repositories
+- Adding to Staging area
+- Committing the changes to repository
+
+
