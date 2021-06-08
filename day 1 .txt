@@ -1,0 +1,28 @@
+SCM - Git & Github
+-------------------
+
+git bash 
+	or 	  ----  git  ---- git Hub
+git Gui                      
+				 |			 |
+	|            |           |
+	|          Software         
+ local                    A remote folder
+ system                    or a cloud
+
+Today :
+-------
+Accesing a remote project(repository)
+
+Repository -- folder -- directory
+
+to download a remote repository we need to use clone command
+syntax: 
+git clone url 
+dir -- will display the list of directories
+cd folder_name -- to change our working repository
+
+git log :
+by using command we can see the total commints.
+git log --oneline : will limit our commit messages
+git log -n 2 : display last 2 full commits 
