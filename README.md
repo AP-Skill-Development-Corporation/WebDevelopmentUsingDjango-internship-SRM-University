@@ -19,5 +19,8 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Accessing Existing Repositories
 - Adding to Staging area
 - Committing the changes to repository
+- Create a remote repository
+- Adding the remotes
+
 
 
