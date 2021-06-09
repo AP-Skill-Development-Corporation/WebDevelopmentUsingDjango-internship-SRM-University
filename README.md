@@ -22,5 +22,12 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Create a remote repository
 - Adding the remotes
 
-
-
+[Day 3 Video Link](https://transcripts.gotomeeting.com/#/s/b3bbbfd34fc57e38374457d0cfa0ca0f144e9f0a627bd9f8b5922b95a924dac8)
+- Uses of Branching
+- Create Branch
+- Switch to new Branch and back
+- Merge the new branch to Master
+- How to send the branch code to new branch on remote
+- Collaborate on existing projects
+- Collaborate on open source projects
+- Sending pull requests and handling them
