@@ -1,0 +1,38 @@
+Good Morning !!
+
+topics:
+-----------
+git commit 
+undoing the commits
+Delete commits 
+
+Markdown syntax
+
+github pages 
+----------------
+clone a repository :  git clone remote_url
+
+to convert files into stagging area : git add file_name 
+
+commit is a code shapshot, it will store information regarding
+change on our code.
+40 digit unique code (SHA-1) secure Hash Algorithm.
+
+git checkout sha-Key : we will get that perticualr version of code
+
+git checkout main: to get back to our latest version from
+ older version.
+ 
+ if you want to delete only the commit message 
+git reset HEAD^ :it will delete our latest commit msg
+
+git reset --hard HEAD^ : this command can delete files also
+
+
+if you want to delete a specific commit:
+git revert SHA-1
+
+delete a commit without history
+git rebase -i sha-Key
+
+
