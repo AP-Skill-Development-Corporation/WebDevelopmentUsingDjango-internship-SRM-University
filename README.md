@@ -36,5 +36,5 @@ Welcome to Web Development Using Django internship this repository consists of a
 - git commit 
 - undoing the commits
 - Delete commits 
-- Markdown syntax
+- [Markdown syntax](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/markdown-practice.md)
 - github pages 
