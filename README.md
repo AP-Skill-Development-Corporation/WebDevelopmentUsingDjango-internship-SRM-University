@@ -33,7 +33,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Sending pull requests and handling them
 
 [Day 4 video link 10 jun 2021](https://transcripts.gotomeeting.com/#/s/3ebd349ab521fc11ec4692510f8b36f4e0f9674e30d4d497400df29808bd0cb8)
-- git commit 
+- [git commit](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/10%20jun%202021.txt) 
 - undoing the commits
 - Delete commits 
 - [Markdown syntax](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/markdown-practice.md)
