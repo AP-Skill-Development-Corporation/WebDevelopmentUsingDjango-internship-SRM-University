@@ -1,0 +1,40 @@
+Python
+-------------
+-> Interpreted Language : The execution of the program is line by line. The execution stops where the error occur
+-> Hihg level : Programmer frinedly language
+-> Dynamic : We don't need to define the data type of variables
+and There is automatic memory management and automatic garbage collection.
+-> Case sensitve : Var != var
+-> Python supports both the programming paradigms
+	-> Functional Programming
+	-> Objec oriented Programming
+-> Variable : It holds the reference to the value
+	-> can contain [A-Z] ,[a-z],[0-9] and _
+	-> should not start with numbers
+	-> we cannot use keywords as variable names
+-> Keywords:
+	['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class',     	'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 	'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 	'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+-> Data Types : 
+	-> Integer
+	-> Float
+	-> String : sequence of characters
+	-> Boolean : True or False / 1 or 0
+	-> None Type : None
+4.3
+floor(4.3) = 4 -> nearest integer which is less than the float value
+ceil(4.3) = 5 -> nearest integer which is greater than the float value
+
+- round(value,length) => To limit the number of decimal points
+
+and: Both the inputs true then only output is true
+or : True if any one of the inputs is true
+a	b	and	or
+0	0	0	0
+0	1	0	1
+1	0 	0	1
+1	1	1	1
+
+not: To invert the input
+i/p	o/p
+0	1
+1	0
