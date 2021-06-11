@@ -38,3 +38,9 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Delete commits 
 - [Markdown syntax](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/markdown-practice.md)
 - github pages 
+
+[Day 5 Video link 11 june 2021](https://transcripts.gotomeeting.com/#/s/bc9d8ab21c8ba9ab94a14db33bcab7323e7a548c5ecb4bd3691bb4e0667223ef)
+- Python introduction 
+- python basics
+- Operators 
+- Print funtion
