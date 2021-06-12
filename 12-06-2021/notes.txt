@@ -1,0 +1,89 @@
+Day Objectives:
+===============
+->Bitwise Operators
+  Itentity Operator
+  Membership Operators
+
+->Strings
+->Conditional Statements
+
+# Bitwise Operators(|,&, ~, <<, >>, ^)
+
+0 000
+1 001
+2 010
+3 011
+4 100
+5 101
+
+
+or: 2 | 3
+
+0010
+0011
+-----
+0101 ---> 5
+
+
+and : 2 & 3
+0010
+0011
+-----
+0010 ---> 2
+
+1010
+0101
+-----
+1111 ---> 15
+0000 ---> 0
+
+Bitwise not : It is 1's compliment of the number
+~(a) = ~(1010)
+     = -(1010+1)
+     = -(1011)
+     = -11
+Left shift operator(<<): Performs Multiplication
+
+a<<1  : 10 * 2^1 = 10*2 =20
+a<<2 : 10*2^2 = 10*4 = 40
+a<<5 : 10*2^5 = 10*32 = 320
+
+
+Right shift Operator(>>) : Performs Division
+a>>1 : 10 / 2^1 = 5
+a>>3 : 10 / 2^3 = 10/8 = 1
+
+Bitwise XOR(^): Performs Addition
+
+a^b
+
+1010
+0101
+-----
+1111 ---> 15
+
+# Conditional Statements
+# Condition : It is an expression which returns either True or False
+# if, elif, else, nested if
+if condition:
+    
+    statment 1
+    statement 2
+    ...
+
+else:
+    statements
+
+# elif :  Only execute if the "if" condition is False
+
+
+
+#Negative Indexing
+
+s = "python"
+      012345
+     -6-5-4-3-2-1
+
+# slicing : To access a group of characters at a time
+
+     string [ start_index : end_index : step ]

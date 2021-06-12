@@ -1,0 +1,31 @@
+->Write a program which prints the last character of a given word.
+
+->Write a program which prints the first half of the given input string.
+You can assume that the length of the input string will always be an even number.
+
+->Given a word and a number N, write a program to print the given word, N number of times in a single line.
+
+->Given a word and a number (N), write a program to print the last three characters of the word N times in a single line.
+
+->Write a program that prints the sum of the digits of a given three-digit number.
+
+->Write a program to reverse the digits of a given two-digit number
+
+->You're given a word and an index position of a character. You need to write a program that prints the given word without the character at the given index.
+
+->Write a program to check if the given string is a valid password or not. A string is considered as a valid password if the number of characters present is greater than 7.
+
+->Write a program which checks whether the given number N is between 25 and 75.
+
+->Write a program that reads the student's marks as input and prints PASS or FAIL.If the student has scored more than 50, print PASS.
+In all other cases print FAIL.
+
+->Write a program that reads a single line of input and prints the first and last characters of the given input and prints the asterisk character (*) in place of the remaining characters.
+
+->A company decided to give a bonus of 5% to an employee if his/her years of service is more than five years.
+Write a program that reads an employee's salary and years of service and decides whether the employee gets the bonus or not.
+
+->Write a program to create a menu driven calculator that performs basic arithmetic operations (+, -, *, /, and %).
+
+->Given an amount, write a program to find the minimum number of notes of different denominations that sum up to the given amount.
+Available note denominations are 100, 50, 10, 1.
