@@ -44,6 +44,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 - python basics
 - Operators 
 - Print funtion
+
 [Day 6 Video link 12 june 2021](https://transcripts.gotomeeting.com/#/s/16b84e2bf78a9b6dac067556bb94d2f3c6f2f726e1a080f8b9aab27accc978e6)
 - Bitwise Operators
 - Strings
