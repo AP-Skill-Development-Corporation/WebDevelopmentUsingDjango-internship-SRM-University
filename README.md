@@ -8,8 +8,6 @@ Welcome to Web Development Using Django internship this repository consists of a
 - [Registration link](http://engineering.apssdc.in/register/)
 
 
-## Recorede sessions links:
-
 ### [Day 1 video link](https://transcripts.gotomeeting.com/#/s/1ea6c10d4a626f7b23c82f7e32d3bc6e3c5c04141c0bb3ec1c71f23717ffcb23)
   - Introduction 
   - installations
