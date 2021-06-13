@@ -49,3 +49,4 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Bitwise Operators
 - Strings
 - Conditonal Statements
+[Task](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/12-06-2021/tasks.txt)
