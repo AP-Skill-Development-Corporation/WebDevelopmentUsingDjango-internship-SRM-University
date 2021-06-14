@@ -51,3 +51,8 @@ Welcome to Web Development Using Django internship this repository consists of a
 - [Task](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/12-06-2021/tasks.txt)
 - [Practice files](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/tree/main/12-06-2021)
 ---
+### [Day 7 Video link 14 june 2021](https://transcripts.gotomeeting.com/#/s/26d9b35d01ca5d485c1542f1e6e61ab87bed11938934af284fc6f6fe80caa01e)
+- python Loops
+- termination conditions
+- [notes](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/loops.md)
+---
