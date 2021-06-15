@@ -5,7 +5,7 @@ Function is block of reusablecode that is used to perform a specific action or t
 
 - User define functions
   - syntx
-  ```python
+```python
 def function_name():
   return True
 ```
