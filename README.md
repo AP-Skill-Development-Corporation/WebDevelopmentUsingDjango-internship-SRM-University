@@ -37,24 +37,28 @@ Welcome to Web Development Using Django internship this repository consists of a
 - [Markdown syntax](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/markdown-practice.md)
 - github pages 
 ---
-### [Day 5 Video link 11 june 2021](https://transcripts.gotomeeting.com/#/s/bc9d8ab21c8ba9ab94a14db33bcab7323e7a548c5ecb4bd3691bb4e0667223ef)
+### [Day 5 Video link 11 Jun 2021](https://transcripts.gotomeeting.com/#/s/bc9d8ab21c8ba9ab94a14db33bcab7323e7a548c5ecb4bd3691bb4e0667223ef)
 - Python introduction 
 - python basics
 - Operators 
 - Print funtion
 - [Practice files](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/tree/main/11-06-2021)
 ---
-### [Day 6 Video link 12 june 2021](https://transcripts.gotomeeting.com/#/s/16b84e2bf78a9b6dac067556bb94d2f3c6f2f726e1a080f8b9aab27accc978e6)
+### [Day 6 Video link 12 Jun 2021](https://transcripts.gotomeeting.com/#/s/16b84e2bf78a9b6dac067556bb94d2f3c6f2f726e1a080f8b9aab27accc978e6)
 - Bitwise Operators
 - Strings
 - Conditonal Statements
 - [Task](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/12-06-2021/tasks.txt)
 - [Practice files](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/tree/main/12-06-2021)
 ---
-### [Day 7 Video link 14 june 2021](https://transcripts.gotomeeting.com/#/s/26d9b35d01ca5d485c1542f1e6e61ab87bed11938934af284fc6f6fe80caa01e)
+### [Day 7 Video link 14 Jun 2021](https://transcripts.gotomeeting.com/#/s/26d9b35d01ca5d485c1542f1e6e61ab87bed11938934af284fc6f6fe80caa01e)
 - python Loops
 - termination conditions
 - [notes](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/loops.md)
 ---
-### day 8
-**task:** Identify all leap years in between our born year to till now.
+### [day 8 Video link 15 Jun 2021](https://transcripts.gotomeeting.com/#/s/86eac715b5a5158211fb33bad4185e0e67258d9991fa431dc4b3426e071c6fc6)
+- Functions
+- DataStructures
+    -List 
+[notes](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/functions.md)
+**task:** Identify all leap years in between our born year to till now. 
