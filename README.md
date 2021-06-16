@@ -56,7 +56,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 - termination conditions
 - [notes](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/loops.md)
 ---
-### [day 8 Video link 15 Jun 2021](https://transcripts.gotomeeting.com/#/s/86eac715b5a5158211fb33bad4185e0e67258d9991fa431dc4b3426e071c6fc6)
+### [Day 8 Video link 15 Jun 2021](https://transcripts.gotomeeting.com/#/s/86eac715b5a5158211fb33bad4185e0e67258d9991fa431dc4b3426e071c6fc6)
 - Functions
 - DataStructures
     -List 
@@ -64,3 +64,8 @@ Welcome to Web Development Using Django internship this repository consists of a
 [notes](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/functions.md)
 
 **task:** Identify all leap years in between our born year to till now. 
+
+### [Day 9 Video link 16 Jun 2021]
+- Tuples
+- Sets
+**[Task](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/16-06-2021/Tasks.txt)**
