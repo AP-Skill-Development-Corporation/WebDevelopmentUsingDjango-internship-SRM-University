@@ -1,0 +1,13 @@
+-> Kth largest number in a list
+
+-> Find all the pairs whose sum is k
+
+-> Find mean and median of elements in a list
+
+-> Write a Python program to remove an item from a tuple.
+
+->Write a Python program to reverse a tuple.
+
+-> Write a Python program to find maximum and the minimum value in a set.
+
+-> Write a Python Program to print multiplication and sum of all the elements in a set.

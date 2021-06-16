@@ -1,0 +1,14 @@
+Array  : It is to store homogenious data (all the elements with same data type)
+List  : We can store different elements with different data types
+-> Mutable ( We can modify the list items ) 
+-> Ordered ( We can access the elements with index )
+-> Iterable ( We can iterate through each element ) 
+-> []
+
+Tuples:
+-------------------
+- We can store different data types
+- Immutable
+- Ordered
+- Iterable
+- ()
