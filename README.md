@@ -64,9 +64,11 @@ Welcome to Web Development Using Django internship this repository consists of a
 [notes](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/functions.md)
 
 **task:** Identify all leap years in between our born year to till now. 
+---
+### [Day 9 Video link 16 Jun 2021](https://transcripts.gotomeeting.com/#/s/9722a08de28a6e3b66b48d52134b7993c609a602be4b820a2b68fae4d0727370)
 
-### Day 9 Video link 16 Jun 2021
 - Tuples
 - Sets
 
 **[Task](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/16-06-2021/Tasks.txt)**
+---
