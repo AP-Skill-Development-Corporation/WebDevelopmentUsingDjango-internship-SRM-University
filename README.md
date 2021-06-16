@@ -65,7 +65,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 
 **task:** Identify all leap years in between our born year to till now. 
 
-### [Day 9 Video link 16 Jun 2021]()
+### Day 9 Video link 16 Jun 2021
 - Tuples
 - Sets
 
