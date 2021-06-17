@@ -1,0 +1,62 @@
+Day Objectives:
+================
+
+=> Dictionary
+
+-> It is a collection of Items
+-> Mutable
+-> Unordered
+-> Each item contains a key and a value 
+-> item = (key:value)
+-> {}
+-> d = {}, d = dict()
+-> keys must be unique. we cannot assign same key to different values
+-> Keys must be immutable
+
+
+=> File Handling
+
+CRUD - Create Retrieve Update Delete
+
+Methods:
+----------------
+-open()
+-read() - will read the entire data into a string
+-readlines() - to read the data line by line (list)
+-write()
+-close()
+-tell() - To know the curser position
+-seek() - To move the cursor position
+
+Modes:
+------------
+- x => create mode (This will create a new file)
+- r => read mode (Read the data in the file)
+- w => write mode ( Write data to the file) (erase the old data)
+- a => append mode ( Add data to the file) (new data will be added at the end of the old data)
+- r+ => read + write
+- w+ => write + read
+- a+ => read + append
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
