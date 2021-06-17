@@ -47,7 +47,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 ### [Day 6 Video link 12 Jun 2021](https://transcripts.gotomeeting.com/#/s/16b84e2bf78a9b6dac067556bb94d2f3c6f2f726e1a080f8b9aab27accc978e6)
 - Bitwise Operators
 - Strings
-- Conditonal Statements
+- Conditional Statements
 - [Task](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/12-06-2021/tasks.txt)
 - [Practice files](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/tree/main/12-06-2021)
 ---
