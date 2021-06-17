@@ -60,8 +60,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Functions
 - DataStructures
     -List 
-    
-[notes](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/functions.md)
+- [notes](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/functions.md)
 
 **task:** Identify all leap years in between our born year to till now. 
 ---
@@ -72,3 +71,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 
 **[Task](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/16-06-2021/Tasks.txt)**
 ---
+### Day 10 Video Link 17 Jun 2021
+- Dictionaries
+- File Handling
+- **[Task](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/17-06-2021/tasks.md)**
