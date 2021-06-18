@@ -77,7 +77,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 - **[Tasks and Solutions](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/tree/main/17-06-2021/Tasks)**
 
 ---
-### [Day 11 Video Link 18 Jun 2021](https://transcripts.gotomeeting.com/#/s/e3e621851539c3a897c585d46aec51673e732e96c06914b52e241c3fa2d75c1c)
+### [Day 11 Video Link 18 Jun 2021](https://transcripts.gotomeeting.com/#/s/236fe96cc64d48d71444e9fbf18b2714b31a0de4df81573da3719342b5a319e5)
 - Comprehensions
 	- list comprehensions
 	- tuple comprehensions
