@@ -74,4 +74,4 @@ Welcome to Web Development Using Django internship this repository consists of a
 ### [Day 10 Video Link 17 Jun 2021](https://transcripts.gotomeeting.com/#/s/e3e621851539c3a897c585d46aec51673e732e96c06914b52e241c3fa2d75c1c)
 - Dictionaries
 - File Handling
-- **[Task](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/17-06-2021/tasks.md)**
+- **[Tasks and Solutions](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/tree/main/17-06-2021/Tasks)**
