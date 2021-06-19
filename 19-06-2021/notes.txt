@@ -1,0 +1,53 @@
+Day Objectives
+===============
+
+
+=>Regular Expressions
+
+Meta Characters:
+->"." - Mathces any character
+->[range] -  Specify the sequnce the characters to match
+	->[a-z] - matches all the lowercase characters
+	->[A-Z] - matches all the uppercase characters
+	->[a-zA-Z] - matches all the alphabets(lower and upper)
+	->[0-9] - mathces all the numbers from 0-9
+-> * - zero or one or more than one occurances of the previous character
+-> ? - zero or one occurances of the previous character
+-> + - one or more occurances of the previous character
+
+White spaces : space, \n\t
+
+=> Valid Phone Number Rules
+	- It should contain only digits(0-9)
+	- It should start with either 9/8/7/6
+	- Length of the number should be 10
+	- code : +91 xxxxxxxxxx
+	
+=> Pattern to match all the numbers which are divisible by 5
+
+import re
+----------------
+->match() : It will return a match object if the given pattern is found at the beginning of the string
+->search() : If pattern found, it will match the first occurance
+->findall() : If pattern found, It will match all occurances
+
+
+=> Email Validation:
+	- Should start with alphabet
+	- It can contain alphabets and numbers and (. _)
+	- user_id length is (8-15)
+	- It contains @
+
+
+Taks:
+======
+1. Create a text file
+2. Write some random email ids (through python program)(minimum 5)
+3. Write a function which takes the text file and returns all the valid mail ids(include re)
+
+
+=>Lambda
+
+
+
+=>Filter
