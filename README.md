@@ -85,5 +85,9 @@ Welcome to Web Development Using Django internship this repository consists of a
 	- set comprehensions
 - Iterators
 - Generators
-
-
+---
+### [Day 12 Video Link 19 Jun 2021](https://transcripts.gotomeeting.com/#/s/c21e0773f993fc73ec486ca2e5db40861c2a5ceec65e1cc86892cef962cf1ad2)
+- Lambda
+- Filter
+- Regular Expressions ( **re module** )
+	- **[Task](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/19-06-2021/Task.md)**
