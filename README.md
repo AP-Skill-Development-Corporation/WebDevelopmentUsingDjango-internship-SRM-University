@@ -91,3 +91,17 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Filter
 - Regular Expressions ( **re module** )
 	- **[Task](https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/19-06-2021/Task.md)**
+
+---
+### [Day 13 Video Link 21 Jun 2021](https://transcripts.gotomeeting.com/#/s/18423e00ee35d9b7860a479200a8fa71dc5d9bd3aade2dd92e54472fe341a9a2)
+- Introduction to Python OOP
+- Declaring functions inside the classs 
+- Variables inside the class
+- Named and name less objects
+- Constructor, Destructor and `__str__`
+
+---
+- Inheritance
+- Polymorphism
+- Encapsulation
+- Abstraction
