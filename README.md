@@ -101,6 +101,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Constructor, Destructor and `__str__`
 
 ---
+### [Day 14 Video Link 22 Jun 2021](https://transcripts.gotomeeting.com/#/s/f2bb1da586bfaa26d14bde7ea061b6ca0198918a530a9707c4049d1f47be6d86)
 - Inheritance
 
 	   Types of inheritances:
