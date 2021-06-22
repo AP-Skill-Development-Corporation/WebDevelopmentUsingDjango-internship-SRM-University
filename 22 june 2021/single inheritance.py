@@ -1,0 +1,8 @@
+# single inheritance
+
+class Parent():
+    pass
+
+
+class Child(Parent):
+    pass
