@@ -102,12 +102,13 @@ Welcome to Web Development Using Django internship this repository consists of a
 
 ---
 - Inheritance
-      Types of inheritances:
-      	-  Single inheritance : one parent and one child
-      	-  Multi Level inheritance : level by level
-      	-  Multiple inheritance : one child with multiple parent
-      	-  Hierarchical inheritance : one parent with multiple child
-      	-  Hybrid Inheritance : combines more than one inheritance
+
+	   Types of inheritances:
+      		-  Single inheritance : one parent and one child
+      		-  Multi Level inheritance : level by level
+      		-  Multiple inheritance : one child with multiple parent
+      		-  Hierarchical inheritance : one parent with multiple child
+      		-  Hybrid Inheritance : combines more than one inheritance
 - Polymorphism
 - Encapsulation
 - Abstraction
