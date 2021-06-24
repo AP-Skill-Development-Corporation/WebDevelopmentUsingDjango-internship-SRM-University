@@ -113,3 +113,8 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Polymorphism
 - Encapsulation
 - Abstraction
+
+### [Day 15 Video Link 23 Jun 2021](https://transcripts.gotomeeting.com/#/s/75fd33ca1c4cda5275219f647b4fc6aba7bca3b4c14858c9a55053196a5283e1)
+
+
+### [Day 16 Video Link 24 Jun 2021](https://transcripts.gotomeeting.com/#/s/650b40e9e3c6f0e1137454ec40714738ec6c38b79dcc05b975a6ab3705362773)
