@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+</head>
+<body>
+<table border="1">
+    {% for i in list %}
+    <tr>
+        <td>{{forloop.counter}} * {{num}} = </td>
+        <td>{{i}}</td>
+        </tr>
+    {% endfor %}
+     </table>
+</body>
+</html>
