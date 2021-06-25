@@ -1,0 +1,31 @@
+MVC:
+-----------
+
+M - Model 
+V - View
+C - Controller
+
+Model:
+------------
+It is resposible for managing the data of our application
+
+View:
+--------
+It is resposible for designing the user interface
+
+Controller:
+----------------
+It is resposible for request - respose cycle
+
+
+Django follows MVT Architecture
+-------------------------------------------------------------
+M - Model
+V - View
+T - Template
+
+
+	 	      MVC         MVT
+data	                   : Model         Model
+user interface	   : View         Template
+request-response cycle : Controller    View
