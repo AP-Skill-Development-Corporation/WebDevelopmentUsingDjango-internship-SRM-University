@@ -121,9 +121,10 @@ Welcome to Web Development Using Django internship this repository consists of a
 
 
 
-### [Day 17]
+### [Day 17 Video Link 25 Jun 2021](https://transcripts.gotomeeting.com/#/s/72aaebcf6fb2cbab53724c321f2037c50fb6d13300e9c2951aa53eadbc72628a)
 - Django Templates
 	- A Dango template is simple folder whichi is used to store html file.
 	-  `return render(request, '',{})` this {} are used to send a context to the html page.
 	-  the context is very similar to the python dictionary object.
+- Django Templates Language
 	-  {'data': name}
