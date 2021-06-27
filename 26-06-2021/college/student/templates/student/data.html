@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Data</title>
+	
+	<style>
+		h3{
+			color:red;
+			text-align:center;
+			padding:20px;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/mystyles.css' %}">
+</head>
+<body>
+	<div class="image">
+		<img src="{% static 'images/image1.png' %}" />
+	</div>
+	<h1 >This is Inline CSS</h1>
+	<h3 style="color:blue"> Name : {{ data.name }} </h3>
+	<h3 id="mail"> Email : {{ data.mail }} </h3>
+	<h3 class="phone" id="phone"> Phone Number : {{ data.phone}} </h3>
+	<h3> Age : {{ data.age }} </h3>
+
+</body>
+</html>

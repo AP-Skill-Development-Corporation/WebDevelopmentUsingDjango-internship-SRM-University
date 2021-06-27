@@ -1,0 +1,22 @@
+26th June 2021
+------------------------
+
+Day Objectives:
+=============
+render(request, template_name, context)
+
+Data Rendering from Templates to Views (POST Request)
+
+CSS:
+------
+Inline
+Internal
+External
+
+Selectors :  !important > Id > class > tag
+
+Id selector (#)
+class selector (.)
+tag
+
+Specificity : !important > inline > external >internal 
