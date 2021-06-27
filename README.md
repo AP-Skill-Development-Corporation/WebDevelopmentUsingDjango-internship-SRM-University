@@ -132,3 +132,8 @@ Welcome to Web Development Using Django internship this repository consists of a
 	-  the context is very similar to the python dictionary object.
 - Django Templates Language
 	-  {'data': name}
+
+### [Day 18 Video Link 26 Jun 2021](https://transcripts.gotomeeting.com/#/s/7d766ac984f5aa8682bb3be5d7ee1bde173bf64c532f5664a5b845f5479854b3)
+- Data Rendering from Views to Tempaltes
+- Data Rendering from Templates to Views
+- Static File Handling
