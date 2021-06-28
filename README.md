@@ -137,3 +137,35 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Data Rendering from Views to Tempaltes
 - Data Rendering from Templates to Views
 - Static File Handling
+
+### Day 19
+1. Models:
+	1.  Model is a blue print for how we are going to store data. each model is a python class, which is created by 	inheritancing the `django.db.models.Model`. 
+	2.  Each attribute of the model is a representation of a database field name.
+	3.  Each model class maps a single tabular data in the database.
+2. Sync with DataBase
+	1. python manage.py makemigration: it will create a new migration file for a new model class.
+	3. python manage.py migrate: which is responsible for applying migrations.
+3. Model Creation
+4. Super User:
+	1. we need to create a login details(creating a super user).
+	2. python manage.py createsuperuser
+	3. we need to register the model name in admin.py file, handling admin url.
+		in admin.py file:
+		```python 
+		from appname.moedls import model_name
+		
+		admin.site.register(model_name)
+		``` 
+
+
+
+
+
+
+
+
+
+
+
+
