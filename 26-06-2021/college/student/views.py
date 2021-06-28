@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Register
 # Create your views here.
 
 
@@ -15,6 +16,12 @@ def register(request):
 		email = request.POST["Mail"]
 		phone = request.POST["Phone"]
 		age = request.POST["Age"]
+
+		data_db_table = Register(name= name,
+								 email= email,
+								 phone_num= phone,
+								 age= age)
+		data_db_table.save()
 
 		data = {"name":name,"mail":email,"phone":phone,"age":age}
 
