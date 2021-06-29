@@ -138,7 +138,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Data Rendering from Templates to Views
 - Static File Handling
 
-### [Day 19 Recorded Session](https://transcripts.gotomeeting.com/#/s/c6c10e6b0b240bf6fce1e8bdf83e90a1d466a3f07fb0de5dd0ea0a0b178ca04f)
+### [Day 19 Video Link 28 Jun 2021](https://transcripts.gotomeeting.com/#/s/c6c10e6b0b240bf6fce1e8bdf83e90a1d466a3f07fb0de5dd0ea0a0b178ca04f)
 1. Models:
 	1.  Model is a blue print for how we are going to store data. each model is a python class, which is created by 	inheritancing the `django.db.models.Model`. 
 	2.  Each attribute of the model is a representation of a database field name.
@@ -157,6 +157,16 @@ Welcome to Web Development Using Django internship this repository consists of a
 		
 		admin.site.register(model_name)
 		``` 
+		
+-----
+### [Day 20 Video Link 29 Jun 2021]()
+- Object Relational Mapping
+- ORM Queries
+	- CRUD
+		- Create
+		- Retrieve
+		- Update
+		- Delete
 
 
 
