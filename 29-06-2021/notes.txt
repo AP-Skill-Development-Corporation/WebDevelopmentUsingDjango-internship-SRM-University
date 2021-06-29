@@ -1,0 +1,98 @@
+29th June 2021
+----------------------------
+
+Day Objectives:
+-----------------------
+ORM Queries
+
+ORM : Object Relational Mapping
+
+CRUD Operations : Create Retrieve Update Delete
+--------------------------------
+-> python manage.py shell
+Create:
+------------
+save(): 
+	obj = model_name(data)
+	obj.save()
+
+
+from student.models import Register
+from student import models
+
+
+create(): 
+	model_name.objects.create(data)
+
+
+Retrive/Read:
+------------------------
+all()  : To retrieve all the data present in the table
+	model_name.objects.all()
+
+filter() : To retrieve specific objects (multiple)
+-> we can apply filter to a queryset only
+	model_name.objects.filter(field=value)
+
+
+
+get() : To retrive a single object
+	model_name.objects.get(field=value)
+
+exclude() : To retrieve objects that do not match the given query
+
+
+model_name.objects.filter().exclude()
+
+
+
+order_by() : To change the order of the data based on a particular field 
+  Ascending Order : model_name.objects.order_by("field_name")
+  Descending Order : model_name.objects.order_by("-field_name")
+
+Update:
+-------------
+1. Get the particular object. Assign the new value using = operater. call save().
+	obj = model_name.objects.get(query)
+	obj.field = new_value
+	obj.save()
+
+2. update() : to update particular data
+	model_name.objects.all().update()
+	model_name.objects.filter().update()
+
+
+Delete:
+------------
+delete()  : To delete data
+
+Single record:
+
+-> get the particular object(obj)
+-> obj.delete()
+
+Multiple records:
+
+model_name.objects.filter(query).delete() -> deletes the data which is matching with query given in filter
+model_name.obejcts.all().delete() -> deletes all the rows present in the table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
