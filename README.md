@@ -159,7 +159,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 		``` 
 		
 -----
-### [Day 20 Video Link 29 Jun 2021]()
+### [Day 20 Video Link 29 Jun 2021](https://transcripts.gotomeeting.com/#/s/6ef5d17f60f84e4f8cc8e2dbb343cd4f3d449b27e1ad6bc670e8055a251bccab)
 - Object Relational Mapping
 - ORM Queries
 	- CRUD
