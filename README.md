@@ -168,14 +168,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 		- Update
 		- Delete
 
-
-
-
-
-
-
-
-
-
-
-
+### [Day 21 Video Link 30 Jun 2021](https://transcripts.gotomeeting.com/#/s/d7d47ca9fcff15f1554e4b9ac3c93368e973bdbff6a1d6692a30cf0548aae768)
+- CRUD Operations
+	- Create
+	- Retrieve
