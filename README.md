@@ -7,7 +7,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 - [Python](https://www.python.org/downloads/)
 - [Registration link](http://engineering.apssdc.in/register/)
 
-
+---
 ### [Day 1 video link](https://transcripts.gotomeeting.com/#/s/1ea6c10d4a626f7b23c82f7e32d3bc6e3c5c04141c0bb3ec1c71f23717ffcb23)
   - Introduction 
   - installations
@@ -113,18 +113,19 @@ Welcome to Web Development Using Django internship this repository consists of a
 - Polymorphism
 - Encapsulation
 - Abstraction
-
+---
 ### [Day 15 Video Link 23 Jun 2021](https://transcripts.gotomeeting.com/#/s/75fd33ca1c4cda5275219f647b4fc6aba7bca3b4c14858c9a55053196a5283e1)
 - Django Introduction
 - Django Installation
 - Project Creation
+---
 ### [Day 16 Video Link 24 Jun 2021](https://transcripts.gotomeeting.com/#/s/650b40e9e3c6f0e1137454ec40714738ec6c38b79dcc05b975a6ab3705362773)
 - App Creation
 - Modules in Django Project and App
 - Creating URLs ( static & dynamic )
 - URLs and Views Linking
 - Request and Response
-
+---
 ### [Day 17 Video Link 25 Jun 2021](https://transcripts.gotomeeting.com/#/s/72aaebcf6fb2cbab53724c321f2037c50fb6d13300e9c2951aa53eadbc72628a)
 - Django Templates
 	- A Dango template is simple folder whichi is used to store html file.
@@ -132,12 +133,12 @@ Welcome to Web Development Using Django internship this repository consists of a
 	-  the context is very similar to the python dictionary object.
 - Django Templates Language
 	-  {'data': name}
-
+---
 ### [Day 18 Video Link 26 Jun 2021](https://transcripts.gotomeeting.com/#/s/7d766ac984f5aa8682bb3be5d7ee1bde173bf64c532f5664a5b845f5479854b3)
 - Data Rendering from Views to Tempaltes
 - Data Rendering from Templates to Views
 - Static File Handling
-
+---
 ### [Day 19 Video Link 28 Jun 2021](https://transcripts.gotomeeting.com/#/s/c6c10e6b0b240bf6fce1e8bdf83e90a1d466a3f07fb0de5dd0ea0a0b178ca04f)
 1. Models:
 	1.  Model is a blue print for how we are going to store data. each model is a python class, which is created by 	inheritancing the `django.db.models.Model`. 
@@ -158,7 +159,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 		admin.site.register(model_name)
 		``` 
 		
------
+---
 ### [Day 20 Video Link 29 Jun 2021](https://transcripts.gotomeeting.com/#/s/6ef5d17f60f84e4f8cc8e2dbb343cd4f3d449b27e1ad6bc670e8055a251bccab)
 - Object Relational Mapping
 - ORM Queries
@@ -167,8 +168,13 @@ Welcome to Web Development Using Django internship this repository consists of a
 		- Retrieve
 		- Update
 		- Delete
-
+---
 ### [Day 21 Video Link 30 Jun 2021](https://transcripts.gotomeeting.com/#/s/d7d47ca9fcff15f1554e4b9ac3c93368e973bdbff6a1d6692a30cf0548aae768)
 - CRUD Operations
 	- Create
 	- Retrieve
+---	
+### [Day 22 Video Link 30 Jun 2021](https://transcripts.gotomeeting.com/#/s/34d5178c78c42dee8f072e1b94a05043b1ee8cbaa6996e44d107a6e0faf2c693)
+- CRUD Operations
+	- Update
+	- Delete
