@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration</title>
+</head>
+<body>
+	<form method="post">
+		{% csrf_token %}
+		
+		Name : <input type="text" name="Name"><br>
+		Email : <input type="email" name="Mail"><br>
+		Phone Number : <input type="number" name="Phone"><br>
+		Age : <input type="number" name="Age"><br>
+		<input type="submit" name="" value="Register">
+	</form>
+</body>
+</html>

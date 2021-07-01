@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Data</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Student Data</h1>
+		<table class="table mt-5">
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+				<th>Phone</th>
+				<th>Age</th>
+			</tr>
+			{% for i in data %}
+			<tr>
+				<td>{{i.first_name}}</td>
+				<td>{{i.last_name}}</td>
+				<td>{{i.email}}</td>
+				<td>{{i.phone_num}}</td>
+				<Td>{{i.age}}</Td>
+				<td>
+					<button class="btn btn-link">
+					<a href="{% url 'update' i.id %}">Edit</a>
+					</button>
+				</td>
+				<td>
+					<button class="btn btn-link">
+					<a href='{% url "delete" i.id %}'>Delete</a>
+					</button>
+				</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</div>
+</body>
+</html>

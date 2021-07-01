@@ -1,0 +1,20 @@
+Date : 30 June 2021
+-----------------------------------
+
+Day objectives:
+
+- CRUD Operations 
+
+-> Let's design a Registration Form
+
+Bootstrap:
+-------------------
+Margin: m-1,2,3,4,5, mt,mb,ml,mr
+Padding: p-1,2,3,4,5
+background : bg-(primary,secondary,success,warning,info,danger)
+text-color: text-(primary,secondary,success,warning,info,danger)
+form fields : form-control
+buttons : btn
+
+
+DTL  :Django Template Language
