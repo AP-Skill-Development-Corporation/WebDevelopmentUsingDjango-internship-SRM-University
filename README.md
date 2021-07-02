@@ -187,7 +187,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 	- for use this feature we need to create forms.py file in Django app.
 - Email Sending
 	- in setting.py we need to write the below lines 
-	- ```
+	```
 	EMAIL_USE_TLS = True
 	EMAIL_HOST = 'smtp.gmail.com'
 	EMAIL_PORT = 587
@@ -195,10 +195,12 @@ Welcome to Web Development Using Django internship this repository consists of a
 	EMAIL_HOST_PASSWORD = 'password'
 	```
 	- after that we need to import a module in views.py file
-	- ```
+	```
 	from django.core.mail import EmailMessage
 	
 	email_msg = EmailMessage(sub, body, sender, [receiver_mail])
 	email_msg.send()
 	```
+	
+	- To send a mail we need to turn On the less securty open of our gmail account.
 	
