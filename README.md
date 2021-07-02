@@ -174,7 +174,14 @@ Welcome to Web Development Using Django internship this repository consists of a
 	- Create
 	- Retrieve
 ---	
-### [Day 22 Video Link 30 Jun 2021](https://transcripts.gotomeeting.com/#/s/34d5178c78c42dee8f072e1b94a05043b1ee8cbaa6996e44d107a6e0faf2c693)
+### [Day 22 Video Link 01 July 2021](https://transcripts.gotomeeting.com/#/s/34d5178c78c42dee8f072e1b94a05043b1ee8cbaa6996e44d107a6e0faf2c693)
 - CRUD Operations
 	- Update
 	- Delete
+---
+### [Day 23 Video Link 02 July 2021]
+
+- Model Forms
+	- By  Using this django forms we can easly manage the Html forms.
+	- And it will provide the data validations.
+	- for use this feature we need to create forms.py file in Django app.
