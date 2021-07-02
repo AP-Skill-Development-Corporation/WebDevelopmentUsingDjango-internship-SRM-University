@@ -185,3 +185,20 @@ Welcome to Web Development Using Django internship this repository consists of a
 	- By  Using this django forms we can easly manage the Html forms.
 	- And it will provide the data validations.
 	- for use this feature we need to create forms.py file in Django app.
+- Email Sending
+	- in setting.py we need to write the below lines 
+	- ```
+	EMAIL_USE_TLS = True
+	EMAIL_HOST = 'smtp.gmail.com'
+	EMAIL_PORT = 587
+	EMAIL_HOST_USER = 'our sender email id'
+	EMAIL_HOST_PASSWORD = 'password'
+	```
+	- after that we need to import a module in views.py file
+	- ```
+	from django.core.mail import EmailMessage
+	
+	email_msg = EmailMessage(sub, body, sender, [receiver_mail])
+	email_msg.send()
+	```
+	
