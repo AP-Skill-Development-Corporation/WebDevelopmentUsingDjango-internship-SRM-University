@@ -9,3 +9,16 @@ class Register(models.Model):
 
     def __str__(self):
         return self.first_name
+
+class ContactUs(models.Model):
+    name = models.CharField(max_length=10)
+    mail = models.EmailField()
+    Gender_choices = (('Male','male'),
+                      ('Female','female'))
+    gender = models.CharField(max_length=6, choices=Gender_choices,
+                              blank=True, null=True)
+    phone = models.CharField(max_length=10,blank=True, null=True)
+    dob = models.DateField(blank=True, null=True)
+
+    def __str__(self):
+        return self.name

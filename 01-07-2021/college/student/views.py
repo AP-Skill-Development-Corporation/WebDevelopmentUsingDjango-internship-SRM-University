@@ -1,6 +1,9 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from .models import Register
+from .forms import ContactForm
+from django.core.mail import EmailMessage
+from college import settings
 # Create your views here.
 
 
@@ -75,3 +78,19 @@ def delete(request,Id):
 	return redirect("all_data")
 
 
+def contact_us(request):
+	if request.method == "POST":
+		form_data = ContactForm(request.POST)
+		if form_data.is_valid():
+			form_data.save()
+			name = form_data.data['name']
+			receiver_mail = form_data.data['mail']
+			sub = 'hello from Djnago project'
+			sender = settings.EMAIL_HOST_USER
+			body = 'hey '+name+", i got the contact us request from you!!!"
+			email_msg = EmailMessage(sub, body, sender, [receiver_mail])
+			email_msg.send()
+			return HttpResponse("Data stored successfully")
+		return HttpResponse('getting in-valid data!!')
+	empty_form = ContactForm()
+	return render(request, "student/contact.html", {'form': empty_form})
