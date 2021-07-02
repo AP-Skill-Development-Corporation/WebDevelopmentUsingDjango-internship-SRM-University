@@ -179,7 +179,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 	- Update
 	- Delete
 ---
-### [Day 23 Video Link 02 July 2021]
+### [Day 23 Video Link 02 July 2021](https://transcripts.gotomeeting.com/#/s/caeff0cb582b3ae117102376b318c35d3a09bd7842f816f7757793c96f755c7f)
 
 - Model Forms
 	- By  Using this django forms we can easly manage the Html forms.
