@@ -204,3 +204,19 @@ Welcome to Web Development Using Django internship this repository consists of a
 	
 	- To send a mail we need to turn On the less securty open of our gmail account.
 	
+	### Task  
+	created a simple django project to send a greeting card, collect name email from user. 
+		- complete it by 7th july 2021
+	---
+	# [Day 24 Video Link 03 July 2021]
+	- Templates blocks
+		`{% include 'htmlFileName' %}`
+		```
+		 {% extends 'htmlFileName' %} 
+		  {% block NameOfTheBlock %}
+		  {% endblock %}```
+	- Messages in django
+		- Success messages
+		- Error messages
+		- Worning messages
+		- info messages
