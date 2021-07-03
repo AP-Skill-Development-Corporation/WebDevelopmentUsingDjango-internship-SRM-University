@@ -208,13 +208,14 @@ Welcome to Web Development Using Django internship this repository consists of a
 	created a simple django project to send a greeting card, collect name email from user. 
 		- complete it by 7th july 2021
 	---
-	# [Day 24 Video Link 03 July 2021]
+	# [Day 24 Video Link 03 July 2021](https://transcripts.gotomeeting.com/#/s/0bc75ef190eac1a983b5516340356a34e864428d2cab19b0e10740df960f0b57)
 	- Templates blocks
+		
 		`{% include 'htmlFileName' %}`
 		```
 		 {% extends 'htmlFileName' %} 
 		  {% block NameOfTheBlock %}
-		  {% endblock %}```
+		  {% endblock %}
 	- Messages in django
 		- Success messages
 		- Error messages
