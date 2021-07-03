@@ -4,6 +4,7 @@ from .models import Register
 from .forms import ContactForm
 from django.core.mail import EmailMessage
 from college import settings
+from django.contrib import messages
 # Create your views here.
 
 
@@ -42,10 +43,8 @@ def StudentRegistration(req):
 
 		student = Register(first_name=fname,last_name=lname,email=email,phone_num=ph,age=age)
 		student.save()
-
-		return HttpResponse("Registration Successful")
-
-
+		messages.success(req, fname+' Details updated')
+		return redirect('all_data')
 	return render(req,"student/student_register.html")
 
 def StudentData(request):
@@ -68,7 +67,8 @@ def update(request, Id):
 		data.age = request.POST["age"]
 
 		data.save()
-		return redirect("details",Id)
+		messages.info(request, data.first_name + ' Details updated Successfully')
+		return redirect("all_data")
 	return render(request,"student/update.html",{"data":data})
 
 def delete(request,Id):
