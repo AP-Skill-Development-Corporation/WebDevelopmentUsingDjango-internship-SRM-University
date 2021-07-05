@@ -6,9 +6,16 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="{% url 'register' %}">Student Register</a>
+      {% if not user.is_authenticated %}
+<!--       <a class="nav-item nav-link" href="{% url 'register' %}">Student Register</a> -->
+      <a class="nav-item nav-link" href="{% url 'signup' %}">Signup</a>
+      <a class="nav-item nav-link" href="{% url 'signin' %}">Signin</a>
+      {% else %}
       <a class="nav-item nav-link" href="{% url 'all_data' %}">Student Data</a>
       <a class="nav-item nav-link" href="{% url 'contact' %}">Contact Us</a>
+      <a class="nav-item nav-link" href="{% url 'signout' %}">Signout</a>
+      {% endif %}
+
     </div>
   </div>
 </nav>

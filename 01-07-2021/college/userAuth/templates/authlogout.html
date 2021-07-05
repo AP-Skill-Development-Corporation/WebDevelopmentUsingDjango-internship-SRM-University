@@ -1,0 +1,11 @@
+{% extends "student/base.html" %}
+
+
+{% block foo %}
+<div align=center>
+<h3>User logged out successfully</h3>
+Click here to login again <a href="{% url 'login' %}">Login</a>
+</div>
+
+
+{% endblock %}

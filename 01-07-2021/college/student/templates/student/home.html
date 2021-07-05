@@ -1,4 +1,34 @@
 {% extends 'student/base.html' %}
+
 {% block foo %}
-<h1>Home page</h1>
+
+<h1>Welcome {{request.user}}</h1>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img alt="..." class="d-block w-100" src="https://static.toiimg.com/thumb/msid-76357106,width-1200,height-900,resizemode-4/.jpg">
+    </div>
+    <div class="carousel-item">
+      <img alt="..." class="d-block w-100" src="https://srmap.edu.in/file/2017/03/1.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.shiksha.com/mediadata/images/1539754369phpsr75fV.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
 {% endblock %}

@@ -1,0 +1,28 @@
+{% extends "student/base.html" %}
+
+
+{% block foo %}
+<div class="container">
+	<div class="card col-4 text-center m-auto mt-5 shadow">
+		<h1 class="card-header text-primary">Signin Form</h1>
+		<div class="card-body text-center">
+			<form method="post">
+				{% csrf_token %}
+				
+				<label>Username:</label>
+				<input type="text" name="uname"><br><br>
+				<label>Password:</label>
+				<input type="password" name="pswd"><br><br>
+				<button type="submit" class="btn btn-outline-success">SignUp</button>
+			</form>
+		</div>
+		<div class="card-footer text-muted">
+			Don't Have an account? <a href="{% url 'signup' %}">Register Here!</a>
+		</div>
+		
+	</div>
+</div>
+
+
+
+{% endblock %}

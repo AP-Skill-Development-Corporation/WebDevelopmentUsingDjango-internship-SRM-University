@@ -1,0 +1,14 @@
+{% extends "student/base.html" %}
+
+
+{% block foo %}
+
+<form method="post">
+	{% csrf_token %}
+	<h1 class="display-4">Signup Form</h1>
+	{{form.as_p}}
+	<button type="submit" class="btn btn-outline-success">SignUp</button>
+</form>
+
+
+{% endblock %}
