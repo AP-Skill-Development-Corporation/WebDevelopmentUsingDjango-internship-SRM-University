@@ -221,3 +221,6 @@ Welcome to Web Development Using Django internship this repository consists of a
 		- Error messages
 		- Worning messages
 		- info messages
+		
+	# [Day 25 Video Link 05 July 2021](https://transcripts.gotomeeting.com/#/s/cbedd3b02feee35c58273c30e50a361627a7727acd647c647a8a734b57cde98e)
+	- Authentication
