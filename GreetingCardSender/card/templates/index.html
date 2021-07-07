@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Greet Me</title>
+</head>
+<body>
+    <form method="post">
+    {% csrf_token %}
+        <input type="text" name="email" placeholder="user@gmail.com">
+        <input type="text" name="name" placeholder="user name">
+        <input type="submit" value="Greet Me">
+    </form>
+</body>
+</html>
