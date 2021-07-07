@@ -207,20 +207,23 @@ Welcome to Web Development Using Django internship this repository consists of a
 	### Task  
 	created a simple django project to send a greeting card, collect name email from user. 
 		- complete it by 7th july 2021
-	---
-	# [Day 24 Video Link 03 July 2021](https://transcripts.gotomeeting.com/#/s/0bc75ef190eac1a983b5516340356a34e864428d2cab19b0e10740df960f0b57)
-	- Templates blocks
-		
-		`{% include 'htmlFileName' %}`
-		```
-		 {% extends 'htmlFileName' %} 
-		  {% block NameOfTheBlock %}
-		  {% endblock %}
-	- Messages in django
-		- Success messages
-		- Error messages
-		- Worning messages
-		- info messages
-		
-	# [Day 25 Video Link 05 July 2021](https://transcripts.gotomeeting.com/#/s/cbedd3b02feee35c58273c30e50a361627a7727acd647c647a8a734b57cde98e)
-	- Authentication
+---
+### [Day 24 Video Link 03 July 2021](https://transcripts.gotomeeting.com/#/s/0bc75ef190eac1a983b5516340356a34e864428d2cab19b0e10740df960f0b57)
+- Templates blocks
+
+	`{% include 'htmlFileName' %}`
+	```
+	 {% extends 'htmlFileName' %} 
+	  {% block NameOfTheBlock %}
+	  {% endblock %}
+- Messages in django
+	- Success messages
+	- Error messages
+	- Worning messages
+	- info messages
+---		
+### [Day 25 Video Link 05 July 2021](https://transcripts.gotomeeting.com/#/s/cbedd3b02feee35c58273c30e50a361627a7727acd647c647a8a734b57cde98e)
+- Authentication
+---
+### [Day 26 Video Link 06 July 2021](https://transcripts.gotomeeting.com/#/s/85ba6b36b54fc5c7431ce22fe8f81ad9d4b5c9446b2c9d87495b0a26ff615fed)
+- User Profile Creation
