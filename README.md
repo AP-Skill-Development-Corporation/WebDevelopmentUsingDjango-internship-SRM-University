@@ -227,3 +227,11 @@ Welcome to Web Development Using Django internship this repository consists of a
 ---
 ### [Day 26 Video Link 06 July 2021](https://transcripts.gotomeeting.com/#/s/85ba6b36b54fc5c7431ce22fe8f81ad9d4b5c9446b2c9d87495b0a26ff615fed)
 - User Profile Creation
+----
+### [Day 27 Video Link 07 July 2021]
+- Greeting card task 
+- [output git repo link](https://github.com/GirishaDevara/gen_certificate/)
+- Resourses 
+- [install pillow for images](https://pypi.org/project/Pillow/)
+- [PIL official documentation](https://pillow.readthedocs.io/en/stable/)
+- [temporary file hadling](https://www.tutorialspoint.com/generate-temporary-files-and-directories-using-python)
