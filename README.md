@@ -228,7 +228,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 ### [Day 26 Video Link 06 July 2021](https://transcripts.gotomeeting.com/#/s/85ba6b36b54fc5c7431ce22fe8f81ad9d4b5c9446b2c9d87495b0a26ff615fed)
 - User Profile Creation
 ----
-### [Day 27 Video Link 07 July 2021]
+### [Day 27 Video Link 07 July 2021](https://transcripts.gotomeeting.com/#/s/47612b1061ff1f84450b251c62b7e837fa25fd5c36ec7c321959b21ce2563a62)
 - Greeting card task 
 - [output git repo link](https://github.com/GirishaDevara/gen_certificate/)
 - Resourses 
