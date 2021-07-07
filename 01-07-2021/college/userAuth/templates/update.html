@@ -1,0 +1,13 @@
+{% extends "student/base.html" %}
+
+
+{% block foo %}
+
+<form method="post">
+	{% csrf_token %}
+	Roll Number:<input type="text" name="roll" value="{{p.roll}}">
+	Phone : <input type="text" name="phone" value="{{p.phone}}">
+	<button type="submit" class="btn btn-info">Update</button>
+</form>
+
+{% endblock %}

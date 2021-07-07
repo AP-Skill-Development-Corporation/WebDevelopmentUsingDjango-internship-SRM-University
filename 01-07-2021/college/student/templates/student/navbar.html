@@ -11,6 +11,7 @@
       <a class="nav-item nav-link" href="{% url 'signup' %}">Signup</a>
       <a class="nav-item nav-link" href="{% url 'signin' %}">Signin</a>
       {% else %}
+      <a class="nav-item nav-link" href="{% url 'profile' user.id %}">Profile</a>
       <a class="nav-item nav-link" href="{% url 'all_data' %}">Student Data</a>
       <a class="nav-item nav-link" href="{% url 'contact' %}">Contact Us</a>
       <a class="nav-item nav-link" href="{% url 'signout' %}">Signout</a>

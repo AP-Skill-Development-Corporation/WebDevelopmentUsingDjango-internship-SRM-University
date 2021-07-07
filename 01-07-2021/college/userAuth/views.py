@@ -8,7 +8,9 @@ def signup(request):
 	form = UserReg(request.POST or None)
 	if form.is_valid():
 		form.save()
-		return redirect("home")
+		user = User.objects.last()
+		login(request,user)
+		return redirect("profile_details",user.id)
 
 	return render(request,"signup.html",{"form":form})
 
@@ -32,3 +34,35 @@ def signin(request):
 def signout(request):
 	logout(request)
 	return redirect("home")
+
+
+def profile_details(request, Id):
+	if request.method=="POST":
+		user = User.objects.get(id=Id)
+		form = ProfileForm(request.POST)
+		if form.is_valid():
+			f = form.save(commit=False)
+			f.user_id = user.id
+			f.save()
+			return redirect("profile",Id)
+	form = ProfileForm()
+	return render(request,"profile_details.html",{"form":form})
+
+
+def profile(request, Id):
+	u = User.objects.get(id=Id)
+	p = profileDetails.objects.get(user_id=Id)
+	return render(request,"profile.html",{"u":u,"p":p})
+
+
+def update(request,Id):
+	u = User.objects.get(id=Id)
+	p = profileDetails.objects.get(user_id = Id)
+	if request.method=="POST":
+		p.roll = request.POST["roll"]
+		p.phone = request.POST["phone"]
+		p.save()
+		return redirect("profile",Id)
+
+	return render(request,"update.html",{"p":p})
+

@@ -1,0 +1,37 @@
+{% extends "student/base.html" %}
+
+{% block foo %}
+
+<table class="table">
+	<tr>
+		<th>First Name</th>
+		<td>{{ u.first_name }}</td>
+	</tr>
+	<tr>
+		<th>Last Name</th>
+		<td>{{ u.last_name }}</td>
+	</tr>
+	<tr>
+		<th>Username</th>
+		<td>{{ u.username }}</td>
+	</tr>
+	<tr>
+		<th>Roll Number</th>
+		<td>{{ p.roll }}</td>
+	</tr>
+	<tr>
+		<th>Email</th>
+		<td>{{ u.email }}</td>
+	</tr>
+	<tr>
+		<th>Phone</th>
+		<td>{{ p.phone }}</td>
+	</tr>
+	<tr>
+		<th>Branch</th>
+		<td>{{ p.branch }}</td>
+	</tr>
+</table>
+	<a href="{% url 'update' u.id %}">Update</a>
+
+{% endblock %}
