@@ -238,6 +238,17 @@ Welcome to Web Development Using Django internship this repository consists of a
 
 ### Day 28
 - Database connections with MySql
+	- settings.py
+	``` python
+	DATABASES = {
+	    'default': {
+		'ENGINE': 'django.db.backends.mysql',
+		'NAME': "<dbname>",
+		"USER": 'root',
+		"HOST": 'localhost',
+		"PORT": '3306',
+	    }
+	} ```
 	- pip install mysqlclient  (python 3.6)
 	- You cannot download mysqlclient from pip for python 3.8. We need to download binary files(wheel) to install in python 3.8
 		- [Wheel file link](https://www.wheelodex.org/projects/mysqlclient/wheels/mysqlclient-2.0.3-cp38-cp38-win_amd64.whl/)
