@@ -39,7 +39,7 @@ def signout(request):
 def profile_details(request, Id):
 	if request.method=="POST":
 		user = User.objects.get(id=Id)
-		form = ProfileForm(request.POST)
+		form = ProfileForm(request.POST, request.FILES)
 		if form.is_valid():
 			f = form.save(commit=False)
 			f.user_id = user.id
@@ -59,10 +59,10 @@ def update(request,Id):
 	u = User.objects.get(id=Id)
 	p = profileDetails.objects.get(user_id = Id)
 	if request.method=="POST":
-		p.roll = request.POST["roll"]
-		p.phone = request.POST["phone"]
-		p.save()
+		form = ProfileForm(request.POST,request.FILES, instance=p)
+		if form.is_valid():
+			form.save()
 		return redirect("profile",Id)
-
-	return render(request,"update.html",{"p":p})
+	form = ProfileForm(instance=p)
+	return render(request,"update.html",{"p":form})
 

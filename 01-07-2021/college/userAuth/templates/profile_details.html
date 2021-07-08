@@ -4,18 +4,11 @@
 {% block foo %}
 
 
-<form method="post">
+<form method="post" enctype="multipart/form-data">
 	{% csrf_token %}
 
 	<h1>Profile</h1>
 	<table>
-		<!-- {% for i in form %}
-		<tr>
-			<th class="text-primary">{{i.label_tag}}</th>
-			<td>{{i}}</td>
-		</tr>
-			
-		{% endfor %} -->
 		{{ form.as_table}}
 	</table>
 	<button type="submit" class="btn btn-outline-success">Update</button>

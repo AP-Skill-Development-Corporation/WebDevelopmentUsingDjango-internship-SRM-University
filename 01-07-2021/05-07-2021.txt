@@ -1,6 +1,0 @@
-Day Objectives:
----------------------------
-
-User Authentication
-->login
-->logout

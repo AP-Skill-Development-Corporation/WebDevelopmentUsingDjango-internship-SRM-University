@@ -15,4 +15,4 @@ class UserReg(UserCreationForm):
 class ProfileForm(ModelForm):
 	class Meta:
 		model = profileDetails
-		fields = ["branch","phone","roll"]
+		fields = ["branch","phone","roll","image"]

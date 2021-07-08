@@ -2,36 +2,49 @@
 
 {% block foo %}
 
-<table class="table">
-	<tr>
-		<th>First Name</th>
-		<td>{{ u.first_name }}</td>
-	</tr>
-	<tr>
-		<th>Last Name</th>
-		<td>{{ u.last_name }}</td>
-	</tr>
-	<tr>
-		<th>Username</th>
-		<td>{{ u.username }}</td>
-	</tr>
-	<tr>
-		<th>Roll Number</th>
-		<td>{{ p.roll }}</td>
-	</tr>
-	<tr>
-		<th>Email</th>
-		<td>{{ u.email }}</td>
-	</tr>
-	<tr>
-		<th>Phone</th>
-		<td>{{ p.phone }}</td>
-	</tr>
-	<tr>
-		<th>Branch</th>
-		<td>{{ p.branch }}</td>
-	</tr>
-</table>
-	<a href="{% url 'update' u.id %}">Update</a>
+<div class="container m-5">
+	<div class="row">
+		<div class="col-4 text-center border p-3">
+			<img style="border-radius:40px" src="{{p.image.url}}" width="200px" height="200px"/>
+			<h3 class="mt-2">{{u.first_name}} {{u.last_name}}</h3>
+		</div>
+		<div class="col-8">
+			<table class="table border">
+				<tr>
+					<th>First Name</th>
+					<td>{{ u.first_name }}</td>
+				</tr>
+				<tr>
+					<th>Last Name</th>
+					<td>{{ u.last_name }}</td>
+				</tr>
+				<tr>
+					<th>Username</th>
+					<td>{{ u.username }}</td>
+				</tr>
+				<tr>
+					<th>Roll Number</th>
+					<td>{{ p.roll }}</td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td>{{ u.email }}</td>
+				</tr>
+				<tr>
+					<th>Phone</th>
+					<td>{{ p.phone }}</td>
+				</tr>
+				<tr>
+					<th>Branch</th>
+					<td>{{ p.branch }}</td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-12 text-center">
+			<a href="{% url 'update' u.id %}"><button class="btn btn-primary">Update</button></a>
+		</div>
+	</div>
+</div>
+
 
 {% endblock %}

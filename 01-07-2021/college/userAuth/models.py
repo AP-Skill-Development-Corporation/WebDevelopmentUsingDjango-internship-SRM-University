@@ -14,6 +14,7 @@ class profileDetails(models.Model):
 	branch = models.CharField(max_length=10,choices = branches)
 	phone = models.CharField(max_length=10)
 	roll = models.CharField(max_length=20)
+	image = models.ImageField(upload_to="users/",default="default.png")
 	user = models.OneToOneField(User,on_delete = models.CASCADE)
 
 

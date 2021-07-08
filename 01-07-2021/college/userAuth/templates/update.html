@@ -3,10 +3,11 @@
 
 {% block foo %}
 
-<form method="post">
+<form method="post" enctype="multipart/form-data">
 	{% csrf_token %}
-	Roll Number:<input type="text" name="roll" value="{{p.roll}}">
-	Phone : <input type="text" name="phone" value="{{p.phone}}">
+	<!-- Roll Number:<input type="text" name="roll" value="{{p.roll}}">
+	Phone : <input type="text" name="phone" value="{{p.phone}}"> -->
+	{{p.as_p}}
 	<button type="submit" class="btn btn-info">Update</button>
 </form>
 
