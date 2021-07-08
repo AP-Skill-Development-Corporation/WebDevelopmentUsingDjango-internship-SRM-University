@@ -236,7 +236,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 - [PIL official documentation](https://pillow.readthedocs.io/en/stable/)
 - [temporary file hadling](https://www.tutorialspoint.com/generate-temporary-files-and-directories-using-python)
 
-### Day 28
+### [Day 28 Video Link 08 July 2021](https://transcripts.gotomeeting.com/#/s/2566c2f9916aadf4452524812254d3455fdc5cddcf6afaf788f9b3bbf6759122)
 - Database connections with MySql
 	- settings.py
 	``` python
