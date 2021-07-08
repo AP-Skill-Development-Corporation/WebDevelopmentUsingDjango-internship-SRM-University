@@ -254,7 +254,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 	- You cannot download mysqlclient from pip for python 3.8. We need to download binary files(wheel) to install in python 3.8
 		- [Wheel file link](https://www.wheelodex.org/projects/mysqlclient/wheels/mysqlclient-2.0.3-cp38-cp38-win_amd64.whl/)
 		- Open the above link and download file
-		- <img src="" width=300px height=300px />
+		- <img src="https://github.com/AP-Skill-Development-Corporation/WebDevelopmentUsingDjango-internship-SRM-University/blob/main/01-07-2021/Screenshot%20(135)_LI.jpg" height=300px />
 - File Handling
 	- settings.py
 	``` python
