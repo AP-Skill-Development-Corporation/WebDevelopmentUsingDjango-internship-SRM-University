@@ -238,4 +238,26 @@ Welcome to Web Development Using Django internship this repository consists of a
 
 ### Day 28
 - Database connections with MySql
+	- pip install mysqlclient  (python 3.6)
+	- You cannot download mysqlclient from pip for python 3.8. We need to download binary files(wheel) to install in python 3.8
+		- [Wheel file link](https://www.wheelodex.org/projects/mysqlclient/wheels/mysqlclient-2.0.3-cp38-cp38-win_amd64.whl/)
+		- Open the above link and download file
+		- <img src="" width=300px height=300px />
 - File Handling
+	- settings.py
+	``` python
+		- MEDIA_ROOT = os.path.join(BASE_DIR,"media")
+		- MEDIA_URL = "/media/"
+	 ```
+	- urls.py
+	``` python
+		from django.conf import settings
+		from django.conf.urls.static import static
+
+		if settings.DEBUG:
+			urlpatterns+=static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT)
+	```
+	- template
+	``` html
+	<form method="post" enctype="multipart/form-data">
+	```
