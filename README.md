@@ -235,3 +235,7 @@ Welcome to Web Development Using Django internship this repository consists of a
 - [install pillow for images](https://pypi.org/project/Pillow/)
 - [PIL official documentation](https://pillow.readthedocs.io/en/stable/)
 - [temporary file hadling](https://www.tutorialspoint.com/generate-temporary-files-and-directories-using-python)
+
+### Day 28
+- Database connections with MySql
+- File Handling
